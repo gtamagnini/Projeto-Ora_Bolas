@@ -1,0 +1,207 @@
+.secao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.secao img{
+    width: 100%;
+    height: 50%;
+}
+.sectionTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    position: absolute;
+    text-anchor: middle;
+    text-align: center;
+    color:black;
+    width: fit-content;
+    font-family: Roboto Slab;
+    font-weight: 300;
+    font-size: 36pt;
+    margin-left: auto;
+    margin-right: auto;
+    top: 80px;
+    left: center;
+
+}
+.sectionArticle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 400px;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: fit-content;
+    height: 200px;
+    font-family: Roboto Slab;
+    font-weight: 50;
+    font-size: 24pt;
+    border: 1rem rgba(0,0,0,0) solid;
+    border-radius: 1rem;
+    bottom: 10%;
+    color:white;
+}
+
+#proposta{
+    margin-top: 40px;
+    color: black;
+    position: absolute;
+    top:50px;
+    left: center;
+}
+
+.sectionArticleObj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 400px;
+    left: center;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: fit-content;
+    height: 150px;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 20pt;
+    border: 1rem rgba(0,0,0,0) solid;
+    border-radius: 1rem;
+    bottom: 10%;
+    color:white;
+
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+    margin: 0;
+    background-color: #87CEFA;
+    text-align: center;
+    padding: 0rem;
+    height: 5rem;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 36pt;
+    color: black;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap row;
+    font-family: Roboto Slab;
+    font-weight: 200;
+    font-size: 24pt;
+    background-color: #E0FFFF;
+    height: 5.625rem;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background: -webkit-gradient(linear, left top, right top, from(#CCCCCC), to(#E0FFFF));
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+body img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1300px){
+    body, .sectionArticle {
+        font-size: 16pt;
+    }
+    .sectionTitulo{
+        font-size: 24pt;
+    }
+    header h1{
+        font-size: 24pt;
+    }
+    .sectionArticleObj{
+        font-size: 16pt;
+    }
+}
+@media screen and (max-width: 1120px){
+    body, .sectionArticle {
+        font-size: 16pt;
+    }
+    .sectionTitulo{
+        font-size: 18pt;
+    }
+    header h1{
+        font-size: 24pt;
+    }
+    .sectionArticleObj{
+        font-size: 12pt;
+    }
+}
+@media screen and (max-width: 900px){
+    body, .sectionArticle {
+        font-size: 10pt;
+    }
+    .sectionTitulo{
+        font-size: 16pt;
+    }
+    .sectionArticleObj{
+        font-size: 8pt;
+    }
+}
+@media screen and (max-width: 600px){
+    body, .sectionArticle {
+        font-size: 5pt;
+    }
+    .sectionTitulo{
+        font-size: 8pt;
+    }
+    .sectionArticleObj{
+        font-size: 1pt;
+        padding: 0;
+    }
+}
+@media screen and (max-width:700px){
+    header nav{
+        flex-direction: column;
+    }
+    .sectionTitulo{
+        font-size: 12pt;
+    }
+    .sectionArticleObj{
+        font-size: 4pt;
+    }
+}
+@media screen and (max-width: 400px){
+    body, .sectionArticle {
+        font-size: 5pt;
+    }
+    .sectionTitulo{
+        font-size: 4pt;
+    }
+    .sectionArticleObj{
+        font-size: 2pt;
+        padding: 0;
+    }
+}

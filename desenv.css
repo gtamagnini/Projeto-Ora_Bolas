@@ -1,0 +1,206 @@
+/*página*/
+
+#botao{
+    color: black;
+    background: #00C5CD;
+}
+
+
+body{
+    background: -webkit-gradient(linear, left top, right top, from(#97FFFF), to(#97FFFF));
+    margin: 0;
+    display: block;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+    margin: 0;
+    background-color: #00C5CD;
+    text-align: center;
+    padding: 0rem;
+    height: 5rem;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 36pt;
+    color: black;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap row;
+    font-family: Roboto Slab;
+    font-weight: 200;
+    font-size: 24pt;
+    background-color: #E0FFFF;
+    height: 5.625rem;
+    color: black;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* título dos gráficos*/
+
+.graf_traj{
+    background-color: #00C5CD;
+	color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    top: 160px;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
+.graf_posi{
+    background-color: #00C5CD;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 900px;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
+
+.graf_vel{
+    background-color: #00C5CD;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 1970px;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
+
+.graf_a{
+    background-color: #00C5CD;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 3020px;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
+.graf_d{
+    background-color: #00C5CD;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 3600px;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
+
+/*tabela */
+
+#titulo{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 620px;
+    font-size: 12pt;
+}
+
+table {
+    background: -webkit-gradient(linear, left top, right top, from(#97FFFF), to(#97FFFF));
+	box-sizing: border-box;
+	padding: 20px;
+	position: absolute;
+    top: 200px;
+	left: 555px;
+	width: 320px;
+	height: auto;
+	z-index: 2;
+    align-items: center;
+	text-align: left;
+    color: black;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Segoe UI Light";
+    border: double black 5px;
+}
+
+tr{
+    background: -webkit-gradient(linear, left top, right top, from(#97FFFF), to(#97FFFF));;
+	
+}
+
+tr:nth-child(even) {
+	background: -webkit-gradient(linear, left top, right top, from(#97FFFF), to(#97FFFF));
+}
+
+td {
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+}
+
+@media only screen and (max-device-width: 720px) {
+    table{
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+    tr{
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+    tr:nth-child(even){
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+    .graf_vel{
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+    .graf_posi{
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+    .graf_traj{
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+    .graf_a{
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+    .graf_d{
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+
+}
+
+
+
