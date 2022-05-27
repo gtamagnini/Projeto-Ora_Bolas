@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desenvolvimento</title>
+	<link rel="stylesheet" type="text/css" href="desenv.css">
+	<link rel="shortcurt icon" href="assets/b-removebg-preview.png">
+</head>
+
+<body>
+<header>
+	<h1>DESENVOLVIMENTO</h1>
+	<nav id = "menu">
+		<a href="home.html">Início</a>
+		<a href="sobre.html">Objetivo</a>
+		<a href="integrantes.html">Integrantes</a>
+	</nav>
+</header>
+
+<h1 id="titulo">DIGITE OS VALORES</h1>
+<table>
+	<tr>
+		<td> <input type="button" id="botao" value="Gerar gráficos" onclick="vetor()" size="20"></td>
+		<td><input type="text" id="x" size="5" maxlength="3"/>X</td>
+		<td><input type="text" id="y" size="5" />Y</td>
+	</tr>
+	<tr>
+
+	</tr>
+</table>
+
+
+    <h1 class="graf_traj"> TRAJETÓRIA DA BOLA E DO ROBÔ</h1>
+	<canvas id="graficot"></canvas>
+	<div id="grafico_t"></div>
+
+	<h1 class="graf_posi"> COORDENADAS X E Y EM RELAÇÃO A POSIÇÃO DA BOLA E DO ROBÔ</h1>
+	<canvas id="graficop"></canvas>
+	<div id="grafico_px"></div>
+<br>
+	<div id="grafico_py"></div>
+
+	<h1 class="graf_vel"> VELOCIDADE DA BOLA E DO ROBÔ EM RELAÇÃO AO TEMPO</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	<div id="grafico_vx"></div>
+<br>
+	<div id="grafico_vy"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<h1 class="graf_a">ACELERAÇÃO DA BOLA E DO ROBÔ EM RELAÇÃO AO TEMPO</h1>
+	<div id="grafico_a"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<h1 class="graf_d">DISTÂNCIA RELATIVA ENTRE O ROBÔ E A BOLA</h1>
+	<div id="grafico_d"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
